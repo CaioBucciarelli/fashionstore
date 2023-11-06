@@ -1,0 +1,14 @@
+.imagem-carousel {
+  height: 565px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel .carousel-control-prev .carousel-control-prev-icon,
+.carousel .carousel-control-next .carousel-control-next-icon {
+  filter: none;
+}
+
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}

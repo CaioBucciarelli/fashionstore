@@ -1,0 +1,60 @@
+.cadastro-conteudo {
+  margin: 60px auto; 
+  max-width: fit-content;
+  background: var(--cor-1);
+  border-radius: 2px;
+  border: 1px solid var(--cor-p3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cadastro-conteudo h1 {
+  text-align: center;
+}
+
+.cadastro-conteudo h1:after {
+  content: '';
+  width: 600px;
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,168,0,1) 50%, rgba(255,255,255,1) 100%);
+  margin: 5px auto 20px auto;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.form .form-div-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.form div label {
+  color: var(--cor-p5);
+}
+
+.cadastro-conteudo .form .form-div-info input {
+  width: 200px;
+  border: 1px solid var(--cor-5);
+  border-radius: 4px;
+  padding: 4px px;
+}
+
+.form button {
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  background: var(--cor-p3);
+  color: var(--cor-0);
+  border-radius: 4px;
+}
+
+.sem-cadastro a:hover {
+  color: var(--cor-p3);
+}
